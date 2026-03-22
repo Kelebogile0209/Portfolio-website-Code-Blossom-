@@ -1,0 +1,134 @@
+:root {
+--clr-gift-a0: #f5e6cc;
+--clr-gift-a10: #f0c8b7;
+--clr-gift-a20: #e0a2a5;
+--clr-gift-a30: #c87d8c;
+--clr-gift-a40: #8d4a64;
+}
+
+/* Background */
+body {
+    background-color: var(--clr-gift-a0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    background-color: var(--clr-gift-a10);
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+    /*padding-right: 260px;*/
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--clr-gift-a20);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.navbar a {
+    margin: 10px;
+    text-decoration: none;
+    color: var(--clr-gift-a0);
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+
+    background-color: var(--clr-gift-a40);
+    color: var(--clr-gift-a0);
+
+    border-radius: 20px; /* rounded button look */
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+/* Headings */
+h1 {
+    color: var(--clr-gift-a40);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: var(--clr-gift-a30);
+    text-decoration: underline;
+}
+
+h3 {
+    color: var(--clr-gift-a30);
+    text-decoration: underline;
+}
+
+/* Paragraph with dotted border */
+.about {
+    border: 2px dotted var(--clr-gift-a10);
+    padding: 10px;
+    background-color: var(--clr-gift-a40);
+    max-width: 80%;
+}
+
+/* Profile Image (Top Right Circle) */
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    /*border: 3px solid var(--clr-gift-a10);*/
+}
+
+/* Image section */
+.image-section img {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--clr-gift-a40);
+}
+
+/* Links */
+a {
+    color: var(--clr-gift-a30);
+}
+
+a:hover {
+    color: var(--clr-gift-a10);
+}
+
+/* Sections */
+.links, .projects {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(--clr-gift-a20);
+    border-radius: 8px;
+}
+.footer {
+    background-color: var(--clr-gift-a20);
+    color: var(--clr-gift-a40);
+
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
